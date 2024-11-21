@@ -12,7 +12,9 @@ export default function decorate(block) {
       else {
         div.className = 'cards-card-body';
         const p = document.createElement('p');
-        p.append(new Date().toDateString());
+        const options = { month: 'short', day: '2-digit', year: 'numeric' };
+        const formattedDate = currentDate.toLocaleDateString('en-US', options).replace(/(\d{2})\//, '$1 ');
+        p.append(formattedDate);
         div.prepend(p);
       }
     });
