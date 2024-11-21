@@ -13,8 +13,10 @@
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: 0px;
   background-color: black;
+  padding: 20px;
+  color: white;
 }
 
 .cards .cards-card-image {
