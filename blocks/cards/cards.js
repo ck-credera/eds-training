@@ -10,9 +10,7 @@ export default function decorate(block) {
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
       else {
       div.className = 'cards-card-body';
-      const document.createElement('p');
-                    p.append(new Date().toDateString());
-                    div.prepend (p):
+     
       }
     });
     ul.append(li);
