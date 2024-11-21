@@ -13,7 +13,7 @@ export default function decorate(block) {
         div.className = 'cards-card-body';
         const p = document.createElement('p');
         p.append(new Date().toDateString());
-        div.prepend (p):
+        div.prepend (p);
       }
     });
     ul.append(li);
