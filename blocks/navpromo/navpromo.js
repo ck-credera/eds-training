@@ -21,3 +21,13 @@ export default function decorate(block) {
     });
   });
 }
+
+const listItems = document.querySelectorAll('.overlap-list li');
+const displayText = document.getElementById('display-text');
+
+// Add click event listeners to each list item
+listItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    displayText.textContent = item.textContent; // Update display section text
+  });
+});
