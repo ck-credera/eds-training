@@ -19,7 +19,7 @@
   color: white;
   border: 1px solid darkgrey;
   margin-top: -1px;
-  padding: 10px15px;
+  padding: 10px 15px;
   position: relative;
   cursor: pointer; /* Indicate clickability */
 }
