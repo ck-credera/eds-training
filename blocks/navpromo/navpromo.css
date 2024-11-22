@@ -1,0 +1,44 @@
+.navpromo > .container {
+  display: flex; /* Create a side-by-side layout */
+}
+
+.navpromo > .list-section {
+  width: 30%; /* Allocate width for the list section */
+  border-right: 1px solid darkgrey; /* Separator between list and section */
+}
+
+.navpromo > .overlap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.navpromo > .overlap-list li {
+  background-color: grey;
+  color: white;
+  border: 1px solid darkgrey;
+  margin-top: -1px;
+  padding: 10px15px;
+  position: relative;
+  cursor: pointer; /* Indicate clickability */
+}
+
+.navpromo > .overlap-list li:first-child {
+  margin-top: 0;
+}
+
+.navpromo > .display-section {
+  flex-grow: 1; /* Take remaining space */
+  background-color: lightgrey;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: black;
+}
+
+.navpromo > #display-text {
+  margin: 0;
+}
