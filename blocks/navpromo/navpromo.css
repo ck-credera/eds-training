@@ -2,19 +2,19 @@
   display: flex; /* Create a side-by-side layout */
 }
 
-.navpromo > .list-section {
+.navpromo > .container > .list-section {
   width: 30%; /* Allocate width for the list section */
   border-right: 1px solid darkgrey; /* Separator between list and section */
 }
 
-.navpromo > .overlap-list {
+.navpromo > .container > .list-section > .overlap-list {
   list-style: none;
   padding: 0;
   margin: 0;
   position: relative;
 }
 
-.navpromo > .overlap-list li {
+.navpromo > .container > .list-section > .overlap-list > li {
   background-color: grey;
   color: white;
   border: 1px solid darkgrey;
@@ -24,11 +24,11 @@
   cursor: pointer; /* Indicate clickability */
 }
 
-.navpromo > .overlap-list li:first-child {
+.navpromo > .container > .list-section > .overlap-list > li:first-child {
   margin-top: 0;
 }
 
-.navpromo > .display-section {
+.navpromo > .container > .display-section {
   flex-grow: 1; /* Take remaining space */
   background-color: lightgrey;
   padding: 20px;
@@ -39,6 +39,6 @@
   color: black;
 }
 
-.navpromo > #display-text {
+.navpromo > .container > .display-section > p {
   margin: 0;
 }
