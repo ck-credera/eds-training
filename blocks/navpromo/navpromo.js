@@ -10,9 +10,8 @@ export default function decorate(block) {
       if (ul) {
         col.classList.add('list-section');
         ul.classList.add('overlap-list');
-        }
-      else {
-        col.classList.add('display-section');
+      } else {
+      col.classList.add('display-section');
       }
     });
   });
