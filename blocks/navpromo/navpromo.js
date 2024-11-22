@@ -11,7 +11,7 @@ export default function decorate(block) {
         col.classList.add('list-section');
         ul.classList.add('overlap-list');
       } else {
-      col.classList.add('display-section');
+        col.classList.add('display-section');
       }
     });
   });
